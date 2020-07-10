@@ -1,0 +1,41 @@
+// edsonjParameters.sce is Edson-J USV parameters file
+// This were obtained by Eduardo Rodiguez in 2019
+m=250;
+mp=300;
+L=3;
+W=1.8;
+xg=0.08;
+D=0.3;
+R=0.15;
+T=0.16;
+p=1024;
+rg=0.3*L;
+Ir=(0.5*m)*rg^2;
+Iz=(0.5*m)*xg^2+Ir;
+Iz=2*Iz;
+a=0.03;
+U=1.5;
+Cdc=1.1;
+u0=1.5;
+
+Xudot=-2.4706;
+Xu=-0.2912;
+Xuu=-27.6262;
+Xunc= -3.6822;
+Xrnd= 2.7616;
+Xncnc=1.0518;
+Xndnd=1.0518;
+Yvdot=-247.0649;
+Yrdot=-370.5973;
+Yv=-123.5324;
+Yvv=-38.9275;
+Yvnc=-0.3588;
+Yrnc=-0.5382;
+Nrdot=-748.3102;
+Nvdot=-370.5973;
+Nr=-741.1947;
+Nrr=-262.7609;
+Nund=2.7616;
+Nrnc=-2.8549;
+Nncnd=-1.39;
+Nvnc=-0.5382;
